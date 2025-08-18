@@ -16,10 +16,10 @@ let handler = async (m, { conn, args }) => {
   timeZone: 'America/Lima'
 }).format(new Date())
   
-  let saludo = hour < 6 ? "🌌 Buenas madrugadas, espíritu insomne..." :
-               hour < 12 ? "🌅 Buenos días, alma luminosa~" :
-               hour < 18 ? "🌄 Buenas tardes, viajero astral~" :
-               "🌃 Buenas noches, sombra errante~"
+  let saludo = hour < 6 ? "🌌 Buenas madrugadas idiota." :
+               hour < 12 ? "🌅 Buenos días, y a esa hora usando el bot? Te salvaste..." :
+               hour < 18 ? "🌄 Buenas tardes xd, Deberías usarme mas." :
+               "🌃 Buenas noches, Que sueñes conmigo :)"
 
   // Agrupar comandos por categorías
   let categories = {}
@@ -40,20 +40,17 @@ let handler = async (m, { conn, args }) => {
 ╭─❖ 𝘐𝘥𝘪𝘰𝘵𝙈𝘿 ❖─╮
 
 ✦ Y𝙤𝙪 𝘼𝙧𝙚 𝘼𝙣 I𝙙𝙞𝙤𝙩 ✦
-(︶︹︺)ﾉ  💻  (︶︹︺)ﾉ
-
 > *_${saludo}_*
 
-🌀 Sistema: Multi-Device  
-🙃 Idiota: @${userId.split('@')[0]}  
-⏳ Tiempo activo: ${uptime}  
+🤓 Idiota: @${userId.split('@')[0]}  
+⏱️ Tiempo activo: ${uptime}  
 👥 Idiotas: ${totalreg}  
-⌚ Hora estupida: ${hour}  
 
-≪──── ⋆𓆩💀𓆪⋆ ────≫  
+≪───[XD]───≫  
 Hecho por: *_SoyMaycol_*
 
 ╰─❖𝘐𝘥𝘪𝘰𝘵𝙈𝘿 ❖─╯
+
 
 `.trim()
 
