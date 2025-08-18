@@ -4,7 +4,7 @@ const handler = async (msg, { conn }) => {
 
   // Reacción inicial
   await conn.sendMessage(chatId, {
-    react: { text: '😐, key: msg.key }
+    react: { text: '😐', key: msg.key }
   })
 
   // Extraer el ID citado o usar el que envió el mensaje
@@ -17,9 +17,12 @@ const handler = async (msg, { conn }) => {
   const numero = objetivo.replace(/[^0-9]/g, '')
 
   const mensaje = `
-*Identificador:* ${objetivo}
-*Número:* +${numero}
-*Tipo de cuenta:* ${tipo}
+[☻] JAJA atrapado...  
+*Identificador:* ${objetivo}  
+*Número:* +${numero}  
+*Tipo de cuenta:* ${tipo}  
+
+HAHAHA You Are An Idiot ☻
 `.trim()
 
   await conn.sendMessage(chatId, {
