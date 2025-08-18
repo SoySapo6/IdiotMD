@@ -1,133 +1,133 @@
-<h1 align="center">𝐈𝐝𝐢𝐨𝐭𝕄𝔻</h1>
+# IdiotMD
 
- <img src= "https://files.catbox.moe/rplq60.jpeg">
-    </p>
+Un bot de WhatsApp inspirado en el legendario "You Are An Idiot" virus, un tributo a los días en que la ingenuidad digital era más común y las lecciones de seguridad se aprendían de la manera más directa posible.
 
-### **`❕️ Información importante`**
+## Filosofía del Proyecto
 
-<details>
- <summary><b> ➮ Info • Bot</b></summary>
+Este proyecto nace como una reflexión sobre la evolución de la tecnología y la seguridad informática. "You Are An Idiot" no era solo un virus molesto; era un recordatorio brutal de nuestra vulnerabilidad digital y la importancia de la precaución en línea.
 
-* Este proyecto **no está afiliado de ninguna manera** con `WhatsApp`, `Inc. WhatsApp` es una marca registrada de `WhatsApp LLC`, y este bot es un **desarrollo independiente** que **no tiene ninguna relación oficial con la compañía**.
-</details>
+En una era donde la información fluye libremente y los riesgos digitales son más sofisticados, IdiotMD sirve como una nostálgica remembranza de tiempos más simples, cuando los "virus" eran más una travesura que una amenaza existencial.
 
-<details>
- <summary><b> ➮ Funciones</b></summary>
+## Información Importante
 
-> Bot en desarrollo si presenta alguna falla reportar al creador para darle una solución óptima.
+Este proyecto es completamente independiente y no mantiene ninguna afiliación con WhatsApp Inc. WhatsApp es una marca registrada de WhatsApp LLC. IdiotMD es un desarrollo autónomo creado con fines educativos y de entretenimiento.
 
-- [x] Interacción con voz y texto
-- [x] Configuración de grupo
-- [x] antidelete, antilink, antispam, etc
-- [x] Bienvenida personalizada
-- [x] Juegos, tictactoe, mate, etc
-- [x] Chatbot (simsimi)
-- [x] Chatbot (autoresponder)
-- [x] Crear sticker de image/video/gif/url
-- [x] SubBot (Jadibot)
-- [x] Buscador Google
-- [x] Juego RPG
-- [x] Personalizar imagen del menú
-- [x] Descarga de música y video De YT
-- [ ] Otros
+## Características del Sistema
 
-</details>
+### Funcionalidades Principales
 
----
+**Comunicación Avanzada**
+- Procesamiento de mensajes de voz y texto
+- Sistema de respuestas automatizadas
+- Integración con servicios de búsqueda
 
-### **`✧ Click en la imagen para descargar termux ✧`**
-<a
-href="https://www.mediafire.com/file/llugt4zgj7g3n3u/com.termux_1020.apk/file"><img src="https://qu.ax/finc.jpg" height="125px"></a> 
+**Gestión de Grupos**
+- Configuración personalizada por grupo
+- Sistema de moderación automatizada
+- Prevención de spam y enlaces maliciosos
+- Mensajes de bienvenida personalizables
 
-### **`➮ Instalación por termux`**
+**Entretenimiento Digital**
+- Colección de juegos interactivos
+- Sistema de rol y experiencia
+- Generación de stickers multimedia
+- Descarga de contenido multimedia de YouTube
 
-<details>
- <summary><b> ✎ Click para ver los Comandos </b></summary>
+**Funciones Técnicas**
+- Sistema SubBot para múltiples instancias
+- Personalización de interfaz visual
+- Integración con motores de búsqueda
+- Arquitectura modular extensible
 
-### **❀ Instalación manual por termux**
-> Nota: Copie y pegue los comandos en termux uno por uno.
+## Instalación en Entorno Android
+
+### Preparación del Sistema
+
+Descarga e instala Termux desde fuentes oficiales. La aplicación requiere permisos de almacenamiento para funcionar correctamente.
+
+### Configuración del Entorno
+
+Ejecuta los siguientes comandos en secuencia:
+
 ```bash
 termux-setup-storage
 ```
 
 ```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+apt update && apt upgrade -y
 ```
 
 ```bash
-git clone https://github.com/The-King-Destroy/Yuki_Suou-Bot && cd Yuki_Suou-Bot
+pkg install -y git nodejs python ffmpeg imagemagick yarn
+```
+
+### Descarga e Instalación del Proyecto
+
+```bash
+git clone https://github.com/SoySapo6/IdiotMD.git
 ```
 
 ```bash
-yarn install
+cd IdiotMD
 ```
 
 ```bash
 npm install
 ```
 
-```bash
-npm update
-```
+### Inicialización del Sistema
 
 ```bash
 npm start
 ```
 
-> Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación
+Si el sistema solicita confirmación durante la instalación, responde afirmativamente para continuar.
 
-### **🜸 Activar en caso de detenerse en termux**
+## Gestión del Sistema
 
-> Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
+### Reinicio Después de Interrupción
 
-❒ Abre Termux y navega al directorio del bot:
-   
-   ```bash
-    cd Yuki_Suou-Bot
-   ```
+En caso de que el bot se detenga por cualquier motivo:
 
-❒ Inicia el bot nuevamente:
-  
-   ```bash
-    npm start
-   ```
+```bash
+cd IdiotMD && npm start
+```
 
-### **✰ Volverte owner del Bot**
+### Configuración de Administrador
 
-> Si después de instalar el bot en Termux y iniciar la session del bot (deseas poner tu número es la lista de owner pon este comando:
+Para obtener privilegios administrativos:
 
-   ```bash
-    cd Yuki_Suou-Bot && nano settings.js
-   ```
+```bash
+nano settings.js
+```
 
-</details>
-
----
-### **`➮ Enlaces útiles`**
-
-<details>
- <summary><b> 🜸 Enlaces Oficiales </b></summary>
-
- * Canal Oficial  [`¡Click aquí!`](https://whatsapp.com/channel/0029VayXJte65yD6LQGiRB0R)
-* Grupo Oficial [`¡Click aquí!`](https://chat.whatsapp.com/KI2MyKoGWFV7ylP49ioLQ0?mode=ac_t)
-* Comunidad Oficial [`¡Click aquí!`](https://chat.whatsapp.com/KqkJwla1aq1LgaPiuFFtEY?mode=ac_t)
-</details>
-
-<details>
-<summary><b> ✰ Contáctos</b></summary>
-
-* WhatsApp: [`Aquí`](https://wa.me/51921826291)
-* Correo: [`Aquí`](soymaycol.cn@gmail.com)
-
-</details>
+Modifica la sección correspondiente a números autorizados según tus necesidades.
 
 ---
 
-### **`ᥫ᭡ Propietario`**
-<a
-href="https://github.com/SoySapo6"><img src="https://github.com/SoySapo6.png" width="130" height="130" alt="SoyMaycol"/></a>
+## Recursos de Soporte
 
-### **`🜸 Créditos`**
-<a href="https://github.com/The-King-Destroy" style="display:inline-block; text-decoration: none;">
-    <img src="https://github.com/The-King-Destroy.png" width="130" height="130" alt="Destroy" style="border-radius: 50%;"/>
-</a>
+**Canales Oficiales de Comunicación**
+- Canal Principal: https://whatsapp.com/channel/0029VayXJte65yD6LQGiRB0R
+- Grupo de Soporte: https://chat.whatsapp.com/KI2MyKoGWFV7ylP49ioLQ0
+- Comunidad de Usuarios: https://chat.whatsapp.com/KqkJwla1aq1LgaPiuFFtEY
+
+**Contacto Directo**
+- WhatsApp Personal: https://wa.me/51921826291
+- Correo Electrónico: soymaycol.cn@gmail.com
+
+## Desarrollo y Mantenimiento
+
+**Creador Principal**
+SoyMaycol (GitHub: @SoySapo6)
+
+**Creador Original (Yuki Suou)**
+Destroy (GitHub: @The-King-Destroy)
+
+---
+
+*"En la simplicidad de un mensaje molesto, encontramos la complejidad de nuestras vulnerabilidades digitales bro."*
+
+## Licencia (MIT)
+
+Este proyecto se distribuye bajo términos de uso educativo. El código fuente está disponible para estudio y mejora, manteniendo siempre el respeto por los derechos de autor y las mejores prácticas de desarrollo.
