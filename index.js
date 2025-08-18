@@ -42,9 +42,9 @@ console.log(chalk.magentaBright('\nJah, Vamos se paciente eh?'))
 say('IdiotMD', {
 font: 'block',
 align: 'center',
-gradient: ['black', 'white']
+gradient: ['white']
 })
-say('Hecho por SoyMaycol <3', {
+say('Hecho por SoyMaycol', {
 font: 'console',
 align: 'center',
 colors: ['magenta', 'cyan']
