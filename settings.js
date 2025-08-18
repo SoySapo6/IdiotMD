@@ -31,8 +31,8 @@ global.baileys = 'V 6.7.17'
 global.vs = '1.0.0'
 global.nameqr = 'IdiotMD'
 global.namebot = ''
-global.sessions = './MayBots/Principal'
-global.jadi = 'MayBots' 
+global.sessions = 'IdiotaPrincipal'
+global.jadi = 'Idiotas' 
 global.yukiJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
