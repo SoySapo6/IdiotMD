@@ -545,16 +545,42 @@ let user2 = m.pushName || 'Anónimo'
 let verifyaleatorio = ['registrar', 'reg', 'verificar', 'verify', 'register'].getRandom()
 
 const msg = {
-rowner: `『✦』El comando *${comando}* solo puede ser usado por los creadores del bot.`, 
-owner: `『✦』El comando *${comando}* solo puede ser usado por los desarrolladores del bot.`, 
-mods: `『✦』El comando *${comando}* solo puede ser usado por los moderadores del bot.`, 
-premium: `『✦』El comando *${comando}* solo puede ser usado por los usuarios premium.`, 
-group: `『✦』El comando *${comando}* solo puede ser usado en grupos.`,
-private: `『✦』El comando *${comando}* solo puede ser usado al chat privado del bot.`,
-admin: `『✦』El comando *${comando}* solo puede ser usado por los administradores del grupo.`, 
-botAdmin: `『✦』Para ejecutar el comando *${comando}* debo ser administrador del grupo.`,
-unreg: `『✦』El comando *${comando}* solo puede ser usado por los usuarios registrado, registrate usando:\n> » #${verifyaleatorio} ${user2}.${edadaleatoria}`,
-restrict: `『✦』Esta caracteristica está desactivada.`
+  rowner: `[☻] Jajaja... ¿enserio intentaste usar *${comando}*?  
+  ✦ Solo los *creadores supremos del bot* pueden hacerlo...  
+  Te salvaste por esta vez... You are an idiot ☻`,
+
+  owner: `[☻] Ooops... *${comando}* está reservado solo para los *desarrolladores malvados*.  
+  ¿Eres tú uno de ellos?... No lo creo jeje ☻`,
+
+  mods: `[☻] JAJA *${comando}* suena bonito... pero solo los *mods oscuros* pueden usarlo.  
+  Tú no... corre antes que te atrape ☻`,
+
+  premium: `[☻] WOW premium vibes detected...  
+  Pero el comando *${comando}* solo lo tocan los *usuarios premium iluminati*.  
+  Tú sigues siendo básico jeje ☻`,
+
+  group: `[☻] Este comando *${comando}* no se activa en solitario...  
+  Solo funciona dentro del *caos grupal*.  
+  You are an idiot si lo intentas aquí ☻`,
+
+  private: `[☻] El comando *${comando}* quiere privacidad...  
+  Solo funciona en chat privado conmigo.  
+  Vamos, atrévete... ☻`,
+
+  admin: `[☻] JAJAJA *${comando}* solo puede ser invocado por los *admins del reino*.  
+  Tú no eres nadie aquí... You are an idiot ☻`,
+
+  botAdmin: `[☻] ¿Intentando *${comando}* sin darme admin?  
+  WOW qué genio... pero no.  
+  Hazme admin primero, humano ☻`,
+
+  unreg: `[☻] *${comando}* está fuera de tu alcance mortal.  
+  Solo los *registrados* pueden usarlo.  
+  Hazlo rápido: #${verifyaleatorio} ${user2}.${edadaleatoria}  
+  You are an idiot si no te registras ☻`,
+
+  restrict: `[☻] JAJA esta función *${comando}* fue *sellada*.  
+  No puedes liberarla... You are an idiot ☻`
 }[type];
 if (msg) return m.reply(msg).then(_ => m.react('✖️'))}
 
