@@ -51,6 +51,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.rwait = '🥲'
 global.done = '😌'
 global.error = '😐'
+global.apodo = '𝐒𝐨𝐲𝐌𝐚𝐲𝐜𝐨𝐥 <𝟑'
 global.msm = '😐︎'
 
 global.emoji = '☻'
