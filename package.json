@@ -41,6 +41,7 @@
 "axios": "^1.1.2",
 "boxen": "^7.1.1",
 "cfonts": "^3.3.0",
+"string-similarity": "*",
 "chalk": "^5.1.0",
 "cheerio": "npm:cheerio@1.0.0-rc.12",
 "file-type": "^18.0.0",
