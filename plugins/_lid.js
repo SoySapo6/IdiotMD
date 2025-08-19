@@ -31,7 +31,7 @@ HAHAHA You Are An Idiot ☻
 }
 
 handler.command = ['lid']
-handler.group = true
+handler.group = false
 handler.private = false
 
 export default handler
