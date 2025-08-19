@@ -30,8 +30,42 @@ let crm3 = "SBpbmZvLWRvbmFyLmpz"
 let crm4 = "IF9hdXRvcmVzcG9uZGVyLmpzIGluZm8tYm90Lmpz"
 let drm1 = ""
 let drm2 = ""
-let rtx = "*⪛✰ ↫ Yυƙι  -  Sυσυ  -  Bσƚ ↬ ✰⪜*\n\n✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ QR\n\n✰ Con otro celular o en la PC escanea este QR para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` » Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` » Toque dispositivos vinculados\n\n\`3\` » Escanee este codigo QR para iniciar sesion con el bot\n\n✧ ¡Este código QR expira en 45 segundos!."
-let rtx2 = "*⪛✰ ↫ Yυƙι  -  Sυσυ  -  Bσƚ ↬ ✰⪜*\n\n✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ Cσԃҽ\n\n✰ Usa este Código para convertirte en un *Sub-Bot* Temporal.\n\n\`1\` » Haga clic en los tres puntos en la esquina superior derecha\n\n\`2\` » Toque dispositivos vinculados\n\n\`3\` » Selecciona Vincular con el número de teléfono\n\n\`4\` » Escriba el Código para iniciar sesion con el bot\n\n✧ No es recomendable usar tu cuenta principal."
+let rtx = `
+[☻] HAHAHA IDIOTMD TE OBSERVA...  
+
+*⪛✰ ↫ IᴅɪᴏᴛMD - SυႦ-Bσƚ ↬ ✰⪜*
+
+✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ: *QR*
+
+✰ Escanea este QR para convertirte en un *Sub-Bot Temporal*...  
+Pero cuidado... cada intento revela que eres un IDIOT ☻  
+
+\`1\` » Haz clic en los tres puntos arriba a la derecha  
+\`2\` » Selecciona *Dispositivos vinculados*  
+\`3\` » Escanea este QR y ríndete al caos ☻  
+
+✧ Este código QR se *autodestruirá en 45 segundos*.  
+HAHAHA You Are An Idiot ☻
+`.trim()
+
+let rtx2 = `
+[☻] HAHAHA BIENVENIDO A IDIOTMD...  
+
+*⪛✰ ↫ IᴅɪᴏᴛMD - SυႦ-Bσƚ ↬ ✰⪜*
+
+✐ Cσɳҽxισɳ SυႦ-Bσƚ Mσԃҽ: *Código*
+
+✰ Usa este código para convertirte en un *Sub-Bot Temporal*...  
+IDIOT, sabes que no deberías hacerlo, pero lo harás ☻  
+
+\`1\` » Haz clic en los tres puntos arriba a la derecha  
+\`2\` » Selecciona *Dispositivos vinculados*  
+\`3\` » Elige *Vincular con el número de teléfono*  
+\`4\` » Ingresa el código y ríndete a IDIOTMD ☻  
+
+✧ No uses tu cuenta principal... o terminarás riendo como un IDIOT ☻  
+HAHAHA You Are An Idiot ☻
+`.trim()
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
